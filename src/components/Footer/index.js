@@ -1,5 +1,8 @@
 import React from 'react';
 import './style.css';
+import facebook from "../../images/Facebook_icon.png"
+import twitter from "../../images/twitter.png"
+import linkedin from "../../images/linkedin.png"
 
 const Footer = () => {
   return (
@@ -18,13 +21,13 @@ const Footer = () => {
             
             <div className="icon-container">
               <a href="#" className="link">
-                <img src="/images/Facebook_icon.png" alt="facebook" style={{ width: '30px', height: '30px', marginRight: '10px'}}/>
+                <img src={facebook} alt="facebook" style={{ width: '30px', height: '30px', marginRight: '10px'}}/>
               </a>
               <a href="#" className="link">
-                <img src="/images/twitter.png" alt="twitter" style={{ width: '30px', height: '30px', marginRight: '10px'}} />
+                <img src={twitter} alt="twitter" style={{ width: '30px', height: '30px', marginRight: '10px'}} />
               </a>
               <a href="#" className="link">
-                <img src="/images/linkedin.png" alt="linkedin" style={{ width: '30px', height: '30px', marginRight: '10px'}}/>
+                <img src={linkedin} alt="linkedin" style={{ width: '30px', height: '30px', marginRight: '10px'}}/>
               </a>
             </div>
           </div>

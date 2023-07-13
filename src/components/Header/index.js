@@ -1,7 +1,7 @@
 import React from "react";
 import NavBar from './NavBar';
 import './style.css'; // Import the CSS file
-
+import myAvatar from "../../images/Avatar.jpg"
 
 const Header = ({ activeItem, handleItemClick }) => {
   return (
@@ -12,9 +12,9 @@ const Header = ({ activeItem, handleItemClick }) => {
             <div className="row">
               <div className="col-2">
                 <img
-                  src="/images/Avatar.jpg"
+                  src={myAvatar}
                   alt="my Avatar"
-                  style={{ width: '50px', height: '50px', marginRight: '10px' }}
+                  style={{ width: '60px', height: '60px', marginRight: '10px' }}
                 />
               </div>
               <div className="col-10">

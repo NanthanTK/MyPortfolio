@@ -2,7 +2,7 @@ import React, {useState} from "react";
 import Header from './components/Header';
 import Pages from './components/Pages';
 import Footer from './components/Footer';
-
+import './App.css';
 
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
 };
 
     return (
-      <div>
+      <div className="page-container">
         <Header activeItem={activeItem} handleItemClick={handleItemClick} />
         <Pages activeItem={activeItem} handleItemClick={handleItemClick} />
         <Footer />
