@@ -3,18 +3,16 @@ import React from 'react';
 function Home() {
   return (
     <div>
-      <h1>Home Page</h1>
+      <h1>About Me</h1>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-        velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-        ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-        non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-        ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-        rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-        tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-        porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-        vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-        fames ac ante ipsum primis in faucibus.
+      "Hello, I'm Karun Thiyagarajah, 
+      a passionate web developer with a love for creating engaging and interactive user experiences. 
+      With a strong foundation in front-end technologies like HTML, CSS, and JavaScript, 
+      I enjoy bringing designs to life and crafting intuitive interfaces. 
+      I constantly strive to expand my skills and stay up-to-date with the latest trends and advancements in web development. 
+      I believe in the power of collaboration and enjoy working in teams to deliver high-quality projects. 
+      When I'm not coding, you can find me exploring new technologies, reading, or pursuing my other hobbies. 
+      Let's connect and create something amazing together!"
       </p>
     </div>
   );
