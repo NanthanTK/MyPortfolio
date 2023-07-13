@@ -1,17 +1,10 @@
-import React, { useState } from 'react';
-import NavBar from '../Header/NavBar';
+import React from 'react';
 import Home from './Home';
 import Projects from './Projects';
 import Contact from './Contact';
 import Resume from './Resume';
 
-const Pages = () => {
-  const [activeItem, setActiveItem] = useState('about');
-
-  const handleItemClick = (item) => {
-    setActiveItem(item);
-  };
-
+const Pages = ({activeItem}) => {
   const renderPageContent = () => {
     switch (activeItem) {
       case 'about':
@@ -28,8 +21,7 @@ const Pages = () => {
   };
 
   return (
-    <div>
-      <NavBar activeItem={activeItem} handleItemClick={handleItemClick} />
+    <div>     
       {renderPageContent()}
     </div>
   );

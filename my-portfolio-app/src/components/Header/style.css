@@ -1,0 +1,20 @@
+.nav-link {
+    color: #f0f0f0;
+  }
+  
+  .nav-link:hover {
+    color: #f1e8e8;
+  }
+  
+  .nav-item.active .nav-link {
+    color: #B8b8b8;
+  }
+  .headerStyle {
+    background: #36454F;
+  }
+ 
+  .headingStyle {
+    font-size: 25px;
+    color: #f0f0f0;
+    margin: 7px;
+  }
