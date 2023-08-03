@@ -6,6 +6,7 @@ import quiz from "../../images/Quiz.png"
 import dashboard from "../../images/WeatherDashboard.png"
 import note from "../../images/NoteTaker.png"
 import pGenerator from "../../images/PasswordGenerator.png"
+import ChatAlong from "../../images/Chat_Along_logo.jpg"
 
 function Projects() {
   const projects = [    
@@ -45,6 +46,12 @@ function Projects() {
       description: 'An app to generate secure password.',
       imageUrl: pGenerator,
       projectUrl: 'https://nanthantk.github.io/Password-Generator/'
+    },
+    {
+      title: 'ChatAlong',
+      description: 'A social media App to share thoughts and ideas.',
+      imageUrl: ChatAlong,
+      projectUrl: 'https://chatalong-50aa45c36357.herokuapp.com/'
     }
   ];
 
