@@ -1,20 +1,21 @@
 {
   "files": {
     "main.css": "/MyPortfolio/static/css/main.93112ffe.css",
-    "main.js": "/MyPortfolio/static/js/main.7e98b74e.js",
+    "main.js": "/MyPortfolio/static/js/main.68335916.js",
     "static/media/ReadMe.jpg": "/MyPortfolio/static/media/ReadMe.6e81dcfd5e0a99089d71.jpg",
     "static/media/Facebook_icon.png": "/MyPortfolio/static/media/Facebook_icon.08cb0c532518ce72e6d3.png",
     "static/media/Avatar.jpg": "/MyPortfolio/static/media/Avatar.43818008f1731802ddb7.jpg",
     "static/media/WeatherDashboard.png": "/MyPortfolio/static/media/WeatherDashboard.48b89a9e5c8382dff42c.png",
+    "static/media/Chat_Along_logo.jpg": "/MyPortfolio/static/media/Chat_Along_logo.b8c08129b42585b3b6fb.jpg",
     "static/media/PasswordGenerator.png": "/MyPortfolio/static/media/PasswordGenerator.b542d9557a97003bb04f.png",
     "static/media/NoteTaker.png": "/MyPortfolio/static/media/NoteTaker.c98666584755f367ad9a.png",
     "static/media/WorkDayScheduler.png": "/MyPortfolio/static/media/WorkDayScheduler.29dfedbf50443d487209.png",
     "index.html": "/MyPortfolio/index.html",
     "main.93112ffe.css.map": "/MyPortfolio/static/css/main.93112ffe.css.map",
-    "main.7e98b74e.js.map": "/MyPortfolio/static/js/main.7e98b74e.js.map"
+    "main.68335916.js.map": "/MyPortfolio/static/js/main.68335916.js.map"
   },
   "entrypoints": [
     "static/css/main.93112ffe.css",
-    "static/js/main.7e98b74e.js"
+    "static/js/main.68335916.js"
   ]
 }
